@@ -6,4 +6,4 @@ permalink: /research/
 
 ### [WIP]
 
-$ f(x) = \sin(x) $
+$$ Q(s, a)= Q(s, a) + \alpha(r + \gamma(\max_{a'}Q(s, a'))) $$

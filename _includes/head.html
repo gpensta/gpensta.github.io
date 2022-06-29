@@ -7,4 +7,24 @@
     <meta content="{{site.owner}}" name="author"></meta>
     <meta content="Copyright 2020 {{site.owner}}. All rights reserved." name="copyright"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+        MathJax.Hub.Config({
+          "HTML-CSS": {
+            availableFonts: ["TeX"],
+          },
+          tex2jax: {
+            inlineMath: [['$','$'],["\\(","\\)"]]},
+            displayMath: [ ['$$','$$'], ['\[','\]'] ],
+          TeX: {
+            extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+            equationNumbers: {
+              autoNumber: "AMS"
+            }
+          },
+          showProcessingMessages: false,
+          messageStyle: "none",
+          imageFont: null,
+          "AssistiveMML": { disabled: true }
+        });
+      </script>
 </head>
